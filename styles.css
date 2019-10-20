@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: darkgreen;
+}
+
+h3{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    display: block;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: ridge 3px;
+    box-shadow: 4px 4px 9px rgba(2, 0, 0, 0.5);
+}
+
+
+footer:first-of-type{
+  text-align: center;
+  padding: 1em;
+  font-family: sans;
+  text-shadow: 1px 1px 1px;
+}

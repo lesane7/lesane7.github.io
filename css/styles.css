@@ -1,8 +1,6 @@
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(32, 116, 32);
-    margin: auto;
-    text-align: center;
+    color: rgb(232, 240, 232);
 }
 section{
   margin: auto;
@@ -21,10 +19,10 @@ footer:first-of-type{
     width:200px;
     height:200px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    align-items: center;
     border: ridge 3px;
-    box-shadow: 4px 4px 9px rgba(2, 0, 0, 0.5);
+    box-shadow: 4px 4px 3px rgba(2, 0, 0, 0.9);
     /* position: relative; z-index:1; width:15%; height:20%; */
 }
 
@@ -43,19 +41,63 @@ body {
   font-size: 18px;
 }
 
+header{
+  background-color: rgb(9, 3, 29);
+}
+
+header .container-tittle{
+  text-align: center;
+  position: relative;
+  z-index: 99;
+}
+
+article .intro{
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  color: rgb(235, 252, 252);
+}
+
+header .container-icon{
+  position: absolute;
+  z-index: 99;
+  bottom: 3%;
+  left: 50%;
+  font-size: 40px;
+  animation: down-up 1s ease infinite;
+}
+
+.video{
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background: black;
+}
+
+@keyframes down-up {
+  0% { transform: transLateY(20px); }
+  25% { transform: transLateY(0); }
+  100% { transform: transLateY(20px); }
+}
+
 h2, h3, h4, h5, h6, p {
   text-align: center;
   margin-bottom: 0;
+  padding-top: 5px;
 }
 
-.texto-naranja {
-  font-weight: 300;
-  color: orange;
+.text-green {
+  font-weight: 1200;
+  color: rgb(242, 248, 246);
 }
 
-.texto-blanco {
-  font-weight: 700;
-  color: #fff;
+.text-white {
+  font-weight: 900;
+  color: rgb(233, 245, 212);
 }
 
 .texto-negro {
